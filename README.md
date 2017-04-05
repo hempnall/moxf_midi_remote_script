@@ -4,7 +4,7 @@
 
 This repository allows a MOXF6 or MOXF8 keyboard to control Ableton Live.
 
-For background, see (midi_remote_scripts)[MIDIREMOTE.md]
+For background, see [MIDIREMOTE.md]
 
 ## Installation
 
