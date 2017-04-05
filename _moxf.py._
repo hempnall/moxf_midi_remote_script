@@ -1,0 +1,12 @@
+import Live
+from Live import MidiMap
+from _Framework.ControlSurface import ControlSurface
+from _Framework.TransportComponent import TransportComponent # Class encapsulating all functions in Live's transport section
+from _Framework.ButtonElement import ButtonElement # Class representing a button a the controller
+
+class moxf(ControlSurface):
+  def __init__(self, c_instance):
+    transport = TransportComponent() #Instantiate a Transport Component
+    transport.set_play_button(ButtonElement(True, 0, 0, 61)) #ButtonElement(is_momentary, msg_type, channel, identifier)
+    transport.set_stop_button(ButtonElement(True, 0, 0, 63))
+    transport.set_record_button(ButtonElement(True, 0, 0, 66))
