@@ -25,3 +25,8 @@ $ ./install.sh
 
 ## Supported Controls
 
+
+
+
+[MIDIREMOTE.md]: ./MIDIREMOTE.md
+
